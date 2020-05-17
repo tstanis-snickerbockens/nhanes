@@ -163,14 +163,14 @@ def process_tables(year_start, year_end, postfix, tables):
         else:
             print("Skipping " + table)
 
-#process_tables("2013", "2014", "H", demo_tables)
-#process_tables("2013", "2014", "H", diet_tables)
-#process_tables("2013", "2014", "H", exam_tables)
-#process_tables("2013", "2014", "H", lab_tables)
-#process_tables("2013", "2014", "H", questionnaire_tables)
+process_tables("2013", "2014", "H", demo_tables)
+process_tables("2013", "2014", "H", diet_tables)
+process_tables("2013", "2014", "H", exam_tables)
+process_tables("2013", "2014", "H", lab_tables)
+process_tables("2013", "2014", "H", questionnaire_tables)
 
-#process_tables("2015", "2016", "I", demo_tables)
-#process_tables("2015", "2016", "I", diet_tables)
+process_tables("2015", "2016", "I", demo_tables)
+process_tables("2015", "2016", "I", diet_tables)
 process_tables("2015", "2016", "I", exam_tables)
 process_tables("2015", "2016", "I", lab_tables)
 process_tables("2015", "2016", "I", questionnaire_tables)
